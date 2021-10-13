@@ -87,6 +87,10 @@ sudo apt-get install libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3
 
 Add <mark>/mnt</mark> to <mark>PRUNEPATHS</mark> in <mark>/etc/updatedb.conf</mark> this avoid indexing windows files and mlocate installation not hanging on too long. 
 
+```batch
+sudo nano /etc/updatedb.conf
+```
+
 Install mlocate
 
 ```batch
@@ -128,11 +132,7 @@ CTRL+O (save) + Enter and CTRL+X (close)
 
 You can check with sudo nano command again, that you addition is inserted to file. 
 
-
-
 During this setup I also add this DISPLAY parameter to `~/.bashrc` and `~/.zshrc` files but I think this is not required. 
-
-
 
 Install ns3 requirements
 
@@ -205,8 +205,6 @@ ucoruh@LAPTOP-RQNNS9IG:/mnt$ cd c
 ucoruh@LAPTOP-RQNNS9IG:/mnt/c$ cd Users
 ucoruh@LAPTOP-RQNNS9IG:/mnt/c/Users$ cd ugur.coruh/
 ucoruh@LAPTOP-RQNNS9IG:/mnt/c/Users/ugur.coruh$ ls
-
-
 ```
 
 enter home user directory such as (home/ucoruh) and copy ns-allinone-xx.x package here and extract here with right click then enter folder via terminal and build ns3 
@@ -248,8 +246,6 @@ At time +2s client sent 1024 bytes to 10.1.1.2 port 9
 At time +2.00369s server received 1024 bytes from 10.1.1.1 port 49153
 At time +2.00369s server sent 1024 bytes to 10.1.1.1 port 49153
 At time +2.00737s client received 1024 bytes from 10.1.1.2 port 9
-
-
 ```
 
 ## Step-6 Visualize ns3 Examples
@@ -273,7 +269,6 @@ add header netanim-module
   AnimationInterface anim("first.xml");
   Simulator::Run ();
   Simulator::Destroy ();
-
 ```
 
 ```batch
@@ -292,7 +287,6 @@ At time +2s client sent 1024 bytes to 10.1.1.2 port 9
 At time +2.00369s server received 1024 bytes from 10.1.1.1 port 49153
 At time +2.00369s server sent 1024 bytes to 10.1.1.1 port 49153
 At time +2.00737s client received 1024 bytes from 10.1.1.2 port 9
-
 ```
 
 Enter NetAnim folder and run application
@@ -303,7 +297,6 @@ ucoruh@LAPTOP-RQNNS9IG:~/ns-allinone-3.34/ns-3.34$ cd ../netanim-3.108/
 
 ```batch
 ucoruh@LAPTOP-RQNNS9IG:~/ns-allinone-3.34/netanim-3.108$ sudo ./NetAnim
-
 ```
 
 If you get following error
@@ -319,8 +312,6 @@ ucoruh@LAPTOP-RQNNS9IG:~/ns-allinone-3.34/netanim-3.108$ sudo strip --remove-sec
 ```
 
 After successfull running GUI will be opened and then open first.xml file (/home/ucoruh/ns-allinone-3.34/ns-3.34/first.xml) and play animation
-
-
 
 Thats all!!
 
