@@ -22,7 +22,7 @@
 
 - Then open a **powershell terminal** with administrator privilege (Run as Administrator)
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-05-35-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-05-35-image.png)
 
 
 
@@ -38,7 +38,7 @@
 wsl --list
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-06-39-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-06-39-image.png)
 
 - If you use with online tag you can list all wsl distrubtions. You can select by name and install on your computer.
 
@@ -46,7 +46,7 @@ wsl --list
 wsl --list --online
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-07-20-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-07-20-image.png)
 
 You should get output similar to following list.
 
@@ -95,7 +95,7 @@ wsl --install -d Ubuntu-20.04
 
 **Installation will open a terminal for Ubuntu and ask for user name and password.**
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-12-46-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-12-46-image.png)
 
 > <mark>do not forget username and password</mark>
 > 
@@ -142,7 +142,7 @@ PS C:\WINDOWS\system32>
 
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-17-44-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-17-44-image.png)
 
 we can close wsl with --shutdown parameter. Close open terminal and open a new terminal then enter following command. 
 
@@ -168,7 +168,7 @@ PS C:\WINDOWS\system32> wsl -l -v
 PS C:\WINDOWS\system32>
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-18-44-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-18-44-image.png)
 
 After this command you can close terminal. 
 
@@ -192,11 +192,11 @@ Open a **powershell **terminal with admin privilege and write
 wsl   
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-23-49-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-23-49-image.png)
 
 then you will enter WSL environment
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-24-08-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-24-08-image.png)
 
 On the terminal environment you can access the linux environment.  Run following sequence and wait operations.  
 
@@ -204,7 +204,7 @@ On the terminal environment you can access the linux environment.  Run following
 
 sudo means run this command with root privilege that mean admin privilege and for this reason it ask for root password for current user
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-31-00-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-31-00-image.png)
 
 if you see password for specified user enter password
 
@@ -218,7 +218,7 @@ if you see password for specified user enter password
 sudo apt-get install software-properties-common
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-26-37-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-26-37-image.png)
 
 **Installation Command-3**
 
@@ -226,7 +226,7 @@ sudo apt-get install software-properties-common
 sudo apt-get update && sudo apt-get upgrade
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-26-56-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-26-56-image.png)
 
 
 
@@ -238,7 +238,7 @@ sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install git zsh curl make build-essential
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-27-30-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-27-30-image.png)
 
 **Installation Command-5**
 
@@ -246,7 +246,7 @@ sudo apt-get install git zsh curl make build-essential
  sudo apt-get install libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl imagemagick libmagickwand-dev
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-28-14-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-28-14-image.png)
 
 
 
@@ -262,11 +262,11 @@ Open updatedb.conf file with nano text editor as follow
 sudo nano /etc/updatedb.conf
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-28-50-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-28-50-image.png)
 
 you will some file outputs as follow (following is updated and mnt/ is added)
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-38-08-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-38-08-image.png)
 
 ```batch
 PRUNE_BIND_MOUNTS="yes"
@@ -295,7 +295,7 @@ PRUNEPATHS="/tmp /var/spool /media /var/lib/os-prober /var/lib/ceph /home/.ecryp
 
 use **CTRL+O** for override then it will ask for write for filename press "Enter"
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-38-43-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-38-43-image.png)
 
 and then **CTRL+X** to exit
 
@@ -308,7 +308,7 @@ sudo nano /etc/updatedb.conf
 if you see **mnt/** is added to end of PRUNEPATHS then press CTRL+X to exit
 
 ```batch
-![](file://C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-38-08-image.png)
+![](file://https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-38-08-image.png)
 
 ```batch
 PRUNE_BIND_MOUNTS="yes"
@@ -330,7 +330,7 @@ mlocate is a **m**erging **locate** and database package. "Merging" means update
 sudo apt-get install mlocate
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-43-33-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-43-33-image.png)
 
 **Installation Command-8**
 
@@ -338,7 +338,7 @@ sudo apt-get install mlocate
 sudo updatedb
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-44-04-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-44-04-image.png)
 
 
 
@@ -354,7 +354,7 @@ What is Tasksel [tasksel - Debian Wiki](https://wiki.debian.org/tasksel)
 sudo apt install tasksel
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-45-13-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-45-13-image.png)
 
 **Install Xubuntu desktop** (INSTALL DESKTOP GUI for LINUX)
 
@@ -368,7 +368,7 @@ Xubuntu comes with Xfce, which is a stable, light and configurable desktop envir
 sudo tasksel install xubuntu-desktop
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-46-45-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-46-45-image.png)
 
 Install **xfce4** and select `lightdm`
 
@@ -378,7 +378,7 @@ Install **xfce4** and select `lightdm`
 sudo apt install xfce4
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-47-51-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-47-51-image.png)
 
 
 
@@ -392,11 +392,11 @@ After xfce4 installation you should add **DISPLAY** driver parameter to configur
 sudo nano /etc/bash.bashrc
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-48-51-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-48-51-image.png)
 
 you will see a script file as below
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-01-54-26-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-54-26-image.png)
 
 with using keys go down (end of file) - be carefull about where is the cursor.
 
@@ -509,11 +509,11 @@ During this setup I also add this DISPLAY parameter to `~/.bashrc` and `~/.zshrc
 sudo nano ~/.bashrc
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-03-50-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-03-50-image.png)
 
 you will see a script file again end of this file add
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-04-44-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-04-44-image.png)
 
 go down with keys to end of file and add
 
@@ -664,7 +664,7 @@ if everything is ok then press CTRL+X to exit
 sudo nano ~/.zshrc
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-19-30-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-19-30-image.png)
 
 you will have empty file in this file add the following line and CTRL+O (save) CTRL+X (exit) 
 
@@ -672,7 +672,7 @@ you will have empty file in this file add the following line and CTRL+O (save) C
 export DISPLAY=:0
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-20-16-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-20-16-image.png)
 
 then open file again check insertion is correct
 
@@ -690,13 +690,13 @@ if everything ok, then close file with CTRL+X (exit)
 sudo apt update
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-23-06-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-23-06-image.png)
 
 ```batch
 sudo apt install build-essential autoconf automake libxmu-dev python3-pygraphviz cvs mercurial bzr git cmake p7zip-full python3-matplotlib python-tk python3-dev qt5-qmake qt5-default gnuplot-x11 wireshark
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-24-35-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-24-35-image.png)
 
 
 
@@ -712,7 +712,7 @@ wsl -l -v
 
 
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-26-28-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-26-28-image.png)
 
 **Close terminal,** we will start VcXsrv Windows X server installation for create desktop bridge between Windows and Linux.
 
@@ -724,7 +724,7 @@ Download setup from
 
 [VcXsrv Windows X Server download | SourceForge.net](https://sourceforge.net/projects/vcxsrv/)
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-29-21-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-29-21-image.png)
 
 https://sourceforge.net/projects/vcxsrv/files/latest/download
 
@@ -736,23 +736,23 @@ Install the setup
 
 Open firewall and give permission
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-31-11-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-31-11-image.png)
 
 Select change settings
 
 Find **VcXsrv windows xserver** and check private and public network permissions. 
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-31-54-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-31-54-image.png)
 
 If VcXsrv windows xserver not exist in list, Select change settings and enable allow another app button, then browse for 
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-33-29-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-33-29-image.png)
 
 
 
 select browse 
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-33-58-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-33-58-image.png)
 
 goto installation directory
 
@@ -760,7 +760,7 @@ goto installation directory
 C:\Program Files\VcXsrv
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-35-01-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-35-01-image.png)
 
 select **vcxsrv.exe** and add to list. if its gives error that already add then find exe from list. That mean you already added this file. 
 
@@ -780,29 +780,29 @@ then
 
 Open Xlaunch from menu
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-37-46-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-37-46-image.png)
 
 Select Multiple Window
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-40-39-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-40-39-image.png)
 
 Select Start No Client
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-40-59-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-40-59-image.png)
 
 Disable Access Control, avoid connection issues
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-41-16-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-41-16-image.png)
 
 Save Configurations for later use
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-41-48-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-41-48-image.png)
 
 in the taskbar you will see its running
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-42-42-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-42-42-image.png)
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-43-07-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-43-07-image.png)
 
 
 
@@ -810,7 +810,7 @@ in the taskbar you will see its running
 
 Open Powershell
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-44-07-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-44-07-image.png)
 
 Check is there running session
 
@@ -818,7 +818,7 @@ Check is there running session
 wsl -l -v
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-44-43-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-44-43-image.png)
 
 if there is running session then shutdown it
 
@@ -826,7 +826,7 @@ if there is running session then shutdown it
 wsl --shutdown
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-45-16-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-45-16-image.png)
 
 Enter wsl
 
@@ -834,7 +834,7 @@ Enter wsl
 wsl
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-45-37-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-45-37-image.png)
 
 Enter xfce4-session command
 
@@ -842,7 +842,7 @@ Enter xfce4-session command
 xfce4-session
 ```
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-47-03-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-47-03-image.png)
 
 it will log operations on powershell and then will open WSL Desktop
 
@@ -1011,27 +1011,27 @@ Error getting authority: Error initializing authority: Could not connect: No suc
 
 
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-48-55-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-48-55-image.png)
 
 You will see task bar and icon bar
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-49-14-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-49-14-image.png)
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-49-21-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-49-21-image.png)
 
 right click them to unlock and move a ergonomic position on the screen default is close windows close buttons. 
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-50-50-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-50-50-image.png)
 
 
 
 Select panel 1 from list and uncheck lock panel
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-51-25-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-51-25-image.png)
 
 also select panel 2 from list and uncheck lock panel 
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-52-05-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-52-05-image.png)
 
 now you can move panels 
 
@@ -1039,9 +1039,9 @@ I recommend to move panel near the windows bar
 
 you click Applications from bar and open terminal
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-53-11-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-53-11-image.png)
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-53-26-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-53-26-image.png)
 
 this terminal is linux application not windows application. But window is opened in your desktop. 
 
@@ -1073,11 +1073,11 @@ ip addr
 
 for RDP usage you need to enter RDP client from another computer as follow. You should enter IP of your WSL environment
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-57-01-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-57-01-image.png)
 
 
 
-![](C:\Users\ugur.coruh\Desktop\ns3-wsl-win10-setup\assets\2021-10-27-02-57-14-image.png)
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-57-14-image.png)
 
 **Untill this step WSL and Xfce installed on your computer Step-4 is related with ns3 and you don't need to install it.**
 
