@@ -215,20 +215,21 @@ if you see password for specified user enter password
 **Installation Command-2**
 
 ```batch
-sudo apt-get install software-properties-common
-```
-
-![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-26-37-image.png)
-
-**Installation Command-3**
-
-```batch
 sudo apt-get update && sudo apt-get upgrade
 ```
 
 ![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-26-56-image.png)
 
+**Installation Command-3**
 
+```batch
+sudo apt-get install software-properties-common
+```
+
+![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-26-37-image.png)
+
+> From this point on, since `wsl --install` installs an older version of Ubuntu, you might want to install a newer version of Ubuntu.
+> You can do so by executing `sudo do-release-upgrade`.
 
 **Install software**
 
@@ -240,10 +241,12 @@ sudo apt-get install git zsh curl make build-essential
 
 ![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-27-30-image.png)
 
+> If you have used Linux before and want to stick with bash, you can remove the `zsh` term from the installation command here.
+
 **Installation Command-5**
 
 ```batch
- sudo apt-get install libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl imagemagick libmagickwand-dev
+ sudo apt-get install libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python3-openssl imagemagick libmagickwand-dev
 ```
 
 ![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-28-14-image.png)
