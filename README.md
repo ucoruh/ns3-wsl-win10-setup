@@ -273,8 +273,6 @@ PRUNE_BIND_MOUNTS="yes"
 # PRUNENAMES=".git .bzr .hg .svn"
 PRUNEPATHS="/tmp /var/spool /media /var/lib/os-prober /var/lib/ceph /home/.ecryptfs /var/lib/schroot /mnt"
 PRUNEFS="NFS afs autofs binfmt_misc ceph cgroup cgroup2 cifs coda configfs curlftpfs debugfs devfs devpts devtmp>
-
-
 ```
 
 Update PRUNEPATHS line end of line add before " character add **mnt/**
@@ -284,7 +282,6 @@ Update PRUNEPATHS line end of line add before " character add **mnt/**
 
 ```batch
 PRUNEPATHS="/tmp /var/spool /media /var/lib/os-prober /var/lib/ceph /home/.ecryptfs /var/lib/schroot "
-
 ```
 
 **NEW LINE**
@@ -307,7 +304,6 @@ sudo nano /etc/updatedb.conf
 
 if you see **mnt/** is added to end of PRUNEPATHS then press CTRL+X to exit
 
-```batch
 ![](file://https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-38-08-image.png)
 
 ```batch
@@ -315,7 +311,6 @@ PRUNE_BIND_MOUNTS="yes"
 # PRUNENAMES=".git .bzr .hg .svn"
 PRUNEPATHS="/tmp /var/spool /media /var/lib/os-prober /var/lib/ceph /home/.ecryptfs /var/lib/schroot /mnt"
 PRUNEFS="NFS afs autofs binfmt_misc ceph cgroup cgroup2 cifs coda configfs curlftpfs debugfs devfs devpts devtmp>
-```
 ```
 
 **Install mlocate**
@@ -339,7 +334,6 @@ sudo updatedb
 ```
 
 ![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-01-44-04-image.png)
-
 
 
 **Install Tasksel**
@@ -805,7 +799,6 @@ in the taskbar you will see its running
 ![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-43-07-image.png)
 
 
-
 # Open PowerShell + WSL and Connect to XLaunch
 
 Open Powershell
@@ -836,7 +829,7 @@ wsl
 
 ![](https://raw.githubusercontent.com/ucoruh/ns3-wsl-win10-setup/main/assets/2021-10-27-02-45-37-image.png)
 
-Enter xfce4-session command
+Enter xfce4-session command (if permission required then use `sudo`)
 
 ```batch
 xfce4-session
